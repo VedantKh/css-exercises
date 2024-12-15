@@ -7,9 +7,32 @@ img {
   height: 100px;
 }
 
+.factoid-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+}
+
+.factoid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: 200px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin: 32px;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
